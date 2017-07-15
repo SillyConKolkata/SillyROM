@@ -1,0 +1,7 @@
+/system/preload/BaiduMap_V9.0_Deletable/BaiduMap_V9.0_Deletable.apk
+/system/preload/WeChat_V6.0_Deletable/WeChat_V6.0_Deletable.apk
+/system/preload/SAssistant_downloadable/SAssistant_downloadable.apk
+/system/preload/GalaxyCare_CHN_Deletable/GalaxyCare_CHN_Deletable.apk
+/system/preload/VoiceNote_4.0/VoiceNote_4.0.apk
+/system/preload/SecMemo3/SecMemo3.apk
+/system/preload/SecCalculator_M/SecCalculator_M.apk

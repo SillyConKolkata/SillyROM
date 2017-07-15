@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maintag>
+<item iso="CN">
+    <cp>
+        <name>Baidu</name>
+        <icon>web_cp_logo_baidu.png</icon>
+        <url>http://www.baidu.com/s?wd=</url>
+    </cp>
+</item>
+</maintag>

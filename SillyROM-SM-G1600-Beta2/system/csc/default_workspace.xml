@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <home>
+        <!--  screen [1]  -->
+        <!-- .appwidget.WeatherAppWidget -->
+        <appwidget
+            launcher:packageName="com.sec.android.daemonapp" 
+            launcher:className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1"
+            launcher:screen="0" 
+            launcher:x="0" 
+            launcher:y="0" 
+            launcher:themeName=""
+            launcher:spanX="2" 
+            launcher:spanY="1" />
+
+        <!-- Internet -->
+        <favorite
+            launcher:packageName="com.sec.android.app.sbrowser" 
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" 
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="3" />
+
+        <!-- Camera -->
+        <favorite
+            launcher:packageName="com.sec.android.app.camera" 
+            launcher:className="com.sec.android.app.camera.Camera" 
+            launcher:screen="0" 
+            launcher:x="1" 
+            launcher:y="3" />
+
+        <!-- Email -->
+        <favorite
+            launcher:packageName="com.samsung.android.email.provider" 
+            launcher:className="com.samsung.android.email.ui.activity.MessageListXL" 
+            launcher:screen="0" 
+            launcher:x="2" 
+            launcher:y="3" />
+
+        <!-- Settings -->
+        <favorite
+            launcher:packageName="com.android.settings"
+            launcher:className="com.android.settings.Settings"
+	    launcher:screen="0"
+            launcher:x="3" 
+            launcher:y="3" />
+
+    </home> 
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <hotseat>
+        <!-- Phone -->
+        <favorite
+            launcher:packageName="com.android.contacts" 
+            launcher:className="com.android.dialer.DialtactsActivity" 
+            launcher:x="0" />
+
+        <!-- Contacts -->
+        <favorite
+            launcher:packageName="com.android.contacts" 
+            launcher:className="com.android.contacts.activities.PeopleActivity" 
+            launcher:x="1" />
+
+        <!-- Messages -->
+        <favorite
+            launcher:packageName="com.android.mms" 
+            launcher:className="com.android.mms.ui.ConversationComposer" 
+            launcher:x="2" />
+
+    </hotseat> 
+</favorites> 
